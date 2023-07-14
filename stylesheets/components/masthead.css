@@ -1,0 +1,33 @@
+.masthead {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "menuSearch . actionButtons"
+    ". littleT ."
+    "date logo paper";
+    width: 100vw;
+}
+
+.masthead_menuSearch {
+    grid-area: menuSearch;
+}
+
+.masthead_actions {
+    grid-area: actionButtons;
+}
+
+.masthead_technologies {
+    grid-area: littleT;
+}
+
+.masthead_date {
+    grid-area: date;
+}
+
+.masthead_logo {
+    grid-area: logo;
+}
+
+.masthead_paper {
+    grid-area: paper;
+}
